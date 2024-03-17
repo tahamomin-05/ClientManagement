@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Client Meeting Form</title>
+        <style>
+            body {background-color: powderblue;}
+            #main {padding-top: 5%;}
+            h1   {color:darkblue;}
+            p    {color: red;}
+            label {color :navy; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight: 200;}
+        </style>
+    </head>
+    <body>
+        <div id="main" style="text-align: center;">
+            <h1 style="text-align: center;">Create a Meeting Schedule</h1><br>
+            <form>
+            <div style="border-bottom: 3px solid black; border-top: 3px solid black;"><br>
+                <label>Meeting Topic : </label>
+                <input type="text" id="mtopic" name="mtopic" placeholder="Enter Meeting Topic"><br><br>
+                <label>Number of People : </label>
+                <input type="text" id="npeople" name="npeople" placeholder="Enter Number of People"><br><br>
+                <label>Start Time : </label>
+                <input type="datetime-local" id="mtime" name="mtime"><br><br>
+            </div><br><br>
+            <input type="submit" value="Create" style="font-size: larger;">
+            </form>
+        </div>
+    </body>
+</html>
